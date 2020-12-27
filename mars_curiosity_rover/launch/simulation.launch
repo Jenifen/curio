@@ -1,0 +1,5 @@
+<launch>
+
+<include file="$(find curio_gazebo)/launch/curio_mars_world.launch" />
+<include file="$(find curio_viz)/launch/view_robot.launch" />
+</launch>

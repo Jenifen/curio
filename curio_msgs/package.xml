@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>curio_msgs</name>
+    <version>0.2.0</version>
+    <description>Messages for Curio, a Sawppy Rover</description>
+    <maintainer email="rhys.mainwaring@me.com">Rhys Mainwaring</maintainer>
+    <license>BSD-3-Clause</license>
+    <url type="website">https://github.com/srmainwaring/curio_msgs</url>
+    <url type="repository">https://github.com/srmainwaring/curio_msgs</url>
+    <url type="bugtracker">https://github.com/srmainwaring/curio_msgs/issues</url>
+    <author email="rhys.mainwaring@me.com">Rhys Mainwaring</author>
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>message_generation</build_depend>
+    <depend>geometry_msgs</depend>
+    <depend>std_msgs</depend>
+    <exec_depend>message_runtime</exec_depend>
+</package>
